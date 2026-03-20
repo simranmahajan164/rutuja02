@@ -1,0 +1,90 @@
+# Project Instructions for Python Learning Portal
+
+## Project Overview
+This is a Python learning project with interactive assignments and a web-based portal interface. The project focuses on Python fundamentals, data analysis, object-oriented programming, and game development through hands-on coding exercises.
+
+## Python Code Style
+
+### Function and Task Structure
+- Use clear docstrings for all functions describing what they should do
+- Structure assignments as numbered tasks with focused, single-purpose functions
+- Leave function bodies as `pass` placeholders initially for starter code
+- Use descriptive function names that clearly indicate purpose (e.g., `welcome_message`, `calculate_total`)
+
+### Naming Conventions
+- Use `snake_case` for function and variable names
+- Use `UPPER_SNAKE_CASE` for constants
+- Use descriptive names that indicate data type or purpose
+
+### Comments
+- Use comments to explain the requirements/intent of each task
+- Avoid over-commenting obvious code
+- Place comments above the code they describe
+
+## JavaScript Code Style
+
+### Structure
+- Use ES6 class-based architecture for organizing related functionality
+- Use async/await for asynchronous operations
+- Include proper error handling with try-catch blocks
+- Always check response status when working with fetch APIs
+
+### Naming Conventions
+- Use `camelCase` for function and variable names
+- Use `PascalCase` for class names
+- Use descriptive method names indicating their action (e.g., `renderCourseInfo`, `loadConfig`)
+
+### Error Handling
+- Always catch errors and log meaningful messages to console
+- Provide user-friendly error feedback in the UI
+- Use descriptive error messages for debugging
+
+## HTML/CSS Style
+
+### HTML
+- Use semantic HTML elements where appropriate
+- Use clear, descriptive IDs and class names following kebab-case
+- Include proper accessibility attributes
+
+### CSS
+- Organize styles by component
+- Use descriptive class names
+- Keep stylesheets modular and reusable
+
+## Documentation
+
+### README Files
+- Use friendly, instructional tone
+- Include clear descriptions of assignments
+- Provide setup/installation instructions where needed
+- Use emojis sparingly for emphasis (e.g., 💚, ☕️)
+
+### Code Comments
+- Document the "why" not just the "what"
+- Explain complex logic or non-obvious solutions
+- Keep comments concise and clear
+
+## General Principles
+
+1. **Clarity Over Cleverness** - Write readable code; prioritize understanding over conciseness
+2. **Educational Focus** - Structure code to teach; use clear patterns and examples
+3. **Consistency** - Maintain consistent naming, formatting, and structure across similar files
+4. **Error Handling** - Always handle errors gracefully with meaningful feedback
+5. **Comments and Documentation** - Assume the reader is learning; over-document rather than under-document
+
+## What Copilot Should Do
+
+- ✅ Suggest PEP 8 compliant Python code with docstrings
+- ✅ Use descriptive variable and function names
+- ✅ Include error handling and validation
+- ✅ Follow the class-based architecture pattern for JavaScript
+- ✅ Provide helpful comments explaining non-obvious logic
+- ✅ Structure assignment tasks with clear requirements in comments
+
+## What Copilot Should Avoid
+
+- ❌ Overly complex one-liners or clever expressions
+- ❌ Sparse comments; assume educational context
+- ❌ Inconsistent naming patterns
+- ❌ Ignoring error cases
+- ❌ Breaking the task structure in assignment files
